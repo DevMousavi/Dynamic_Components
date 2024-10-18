@@ -2,10 +2,12 @@
 *
 
 # Allow only components directory and its contents
-!components/
-!components/**
+!src/
+!src/**
 
-# Allow all files inside components folder
-!components/**/*.md
-!components/**/*.tsx
+# Allow specific file types inside src/components
+!src/components/**/*.md
+!src/components/**/*.tsx
 
+# Allow .gitignore itself
+!.gitignore
