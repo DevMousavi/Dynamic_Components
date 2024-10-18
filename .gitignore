@@ -1,0 +1,9 @@
+# Ignore all files
+*
+
+# Allow only components directory
+!components/
+!components/**
+
+# Allow .gitignore itself
+!.gitignore
