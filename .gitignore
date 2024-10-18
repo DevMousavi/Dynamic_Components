@@ -1,9 +1,11 @@
 # Ignore all files
 *
 
-# Allow only components directory
+# Allow only components directory and its contents
 !components/
 !components/**
 
-# Allow .gitignore itself
-!.gitignore
+# Allow all files inside components folder
+!components/**/*.md
+!components/**/*.tsx
+
