@@ -1,13 +1,13 @@
 # Ignore all files
 *
 
-# Allow only components directory and its contents
+# Allow src/components and its contents
 !src/
-!src/**
+!src/components/
+!src/components/**
 
-# Allow specific file types inside src/components
-!src/components/**/*.md
-!src/components/**/*.tsx
+# Ignore the app directory
+app/
 
 # Allow .gitignore itself
 !.gitignore
