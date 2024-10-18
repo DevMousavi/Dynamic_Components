@@ -5,3 +5,5 @@
 !components/
 !components/**
 
+# Allow .gitignore itself
+!.gitignore
