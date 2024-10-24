@@ -38,7 +38,9 @@ const ExampleComponent = () => {
         </div>
     );
 };
-Recommendations
+```
+
+## Recommendations
 
 Custom Styling
 The classNameContainer and classNameBackGround props allow for full customization of the modal's appearance. Consider defining a consistent style for modals across your application.
@@ -46,10 +48,10 @@ The classNameContainer and classNameBackGround props allow for full customizatio
 Performance Optimization
 If your modal contains heavy content, consider implementing lazy loading for components or images inside the modal to improve performance.
 
-Notes
+## Notes
+
 The modal will automatically close when clicking outside of it, pressing the Escape key, or when the browser's back button is pressed.
 To prevent background scrolling while the modal is open, the component disables scrolling on the body element.
 You can customize the close button's size and position by adjusting the closeSvgBtnSize and positionCloseBtn props.
 Contributing
 Feel free to submit issues or pull requests if you have suggestions or improvements for the Modal component!
-```
