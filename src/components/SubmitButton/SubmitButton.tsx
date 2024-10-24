@@ -15,7 +15,6 @@ const SubmitButton: FC<SubmitButtonProps> = ({
     isLoading = false,
 }) => {
     const buttonDisabled: boolean = isLoading;
-
     return (
         <button
             type="button"
