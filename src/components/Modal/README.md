@@ -18,8 +18,8 @@ The `Modal` component provides a customizable modal dialog that can be easily in
 import React, { useState } from "react";
 import Modal from "./Modal";
 
-const ExampleComponent = () => {
-    const [isModalOpen, setIsModalOpen] = useState(false);
+const ExampleComponent = (): JSX.Element => {
+    const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
     return (
         <div>
