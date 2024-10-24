@@ -39,8 +39,6 @@ const ExampleComponent = () => {
     );
 };
 Recommendations
-Accessibility
-Ensure that the modal is accessible to all users by managing focus correctly when it opens and closes. Consider using libraries like react-aria to enhance accessibility.
 
 Custom Styling
 The classNameContainer and classNameBackGround props allow for full customization of the modal's appearance. Consider defining a consistent style for modals across your application.
