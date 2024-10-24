@@ -28,7 +28,9 @@ const ExampleComponent = () => {
                 show={isModalOpen}
                 setClose={setIsModalOpen}
                 classNameContainer="modal-container"
+                // classNameContainer="relative w-[80%] p-6 bg-white rounded-lg shadow-lg"
                 classNameBackGround="modal-background"
+                // classNameBackGround="fixed inset-0 z-50 flex items-center justify-center bg-gray-600 bg-opacity-30 backdrop-blur-[2px]"
                 closeSvgBtnSize={24}
                 positionCloseBtn="absolute top-2 right-2"
             >
